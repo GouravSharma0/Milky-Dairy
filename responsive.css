@@ -1,0 +1,112 @@
+@media only screen and (max-width: 500px) 
+{
+  #responsive-issue
+  {
+    display: none;
+  }
+
+  #Welcome-to-our-dairy-farm,
+  #The-Farm-of-Dairy-products,
+  #The-Farm-of-Dairy-products-2 {
+    display: none;
+  }
+  #follow_top {
+    display: none;
+  }
+  #Know-About-Our-Dairy-Farm-Our-History {
+    font-size: 2.2rem;
+  }
+  #img-box-1,
+  #img-box-2,
+  #img-box-3,
+  #img-box-4 {
+    width: 50%;
+  }
+  #textextext {
+    margin-top: 10px;
+  }
+  #experience-box {
+    border-top-right-radius: 10px;
+    margin-top: 5px;
+  }
+
+  #award-box {
+    border-top-right-radius: 0px;
+  }
+  #animal-box {
+    border-bottom-left-radius: 0px;
+  }
+  #client-box {
+    border-bottom-left-radius: 10px;
+  }
+  #Services-That-We-Offer-For-Entrepreneurs {
+    width: 100%;
+    font-size: 2rem;
+  }
+  #Our-Dairy-Products-For-Healthy-Living {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 402px) {
+  
+  #responsive-issue
+  {
+    display: none;
+  }
+
+  /* #kuch
+  {
+    margin-left: 2%;
+  } */
+  #cowback
+  {
+    width: 100%;
+  }
+
+  #head-img-box,
+  #top-img-1 {
+    width: 100%;
+  }
+
+  #Our-Dairy-Products-For-Healthy-Living {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  #Services-That-We-Offer-For-Entrepreneurs {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  #follow_top {
+    display: none;
+  }
+  #Know-About-Our-Dairy-Farm-Our-History {
+    font-size: 2rem;
+    /* display: none; */
+  }
+  #img-box-1,
+  #img-box-2,
+  #img-box-3,
+  #img-box-4 {
+    width: 50%;
+  }
+  #textextext {
+    margin-top: 10px;
+  }
+  #experience-box {
+    border-top-right-radius: 10px;
+    margin-top: 5px;
+  }
+  #award-box {
+    border-top-right-radius: 0px;
+  }
+  #animal-box {
+    border-bottom-left-radius: 0px;
+  }
+  #client-box {
+    border-bottom-left-radius: 10px;
+  }
+}

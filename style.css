@@ -1,0 +1,524 @@
+/* .row
+{
+    border: 1px solid rgb(21, 178, 7);
+}
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12
+{
+    border: 1px solid red;
+} */
+body {
+  font-family: "Libre Baskerville", serif;
+  /* font-size: 500px; */
+  background-color: #fff;
+}
+/* #milky {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #404a3d;
+  cursor: pointer;
+} */
+#navbar_head {
+  /* display: none; */
+  /* border: none !important ; */
+  background-color: white !important;
+}
+
+#home_head {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #5b8c51;
+}
+#about_head {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #404a3d;
+}
+#about_head:hover {
+  color: #5b8c51;
+}
+
+#service_head {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #404a3d;
+}
+#service_head:hover {
+  color: #5b8c51;
+}
+
+#product_head {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #404a3d;
+}
+#product_head:hover {
+  color: #5b8c51;
+}
+
+#contact_head {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #404a3d;
+}
+#contact_head:hover {
+  color: #5b8c51;
+}
+#page_head {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #404a3d;
+}
+#page_head:hover {
+  color: #5b8c51;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+#Welcome-to-our-dairy-farm {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  left: -310px;
+  top: -580px;
+  /* margin-left: -310px;
+        margin-top: -580px; */
+  font-family: "Libre Baskerville", serif;
+}
+#The-Farm-of-Dairy-products {
+  /* z-index: 10; */
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  /* position: relative;
+        left: -270px;
+        top: -580px; */
+  margin-left: -525px;
+  margin-top: -580px;
+  color: white;
+  font-size: 5rem;
+}
+#The-Farm-of-Dairy-products-2 {
+  margin-left: 100px;
+  margin-top: -580px;
+}
+
+#Welcome-to-our-dairy-farm-2 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  left: 414px;
+  top: -536px;
+  /* margin-left: -310px;
+        margin-top: -580px; */
+  font-family: "Libre Baskerville", serif;
+}
+
+#Best-Organic-Dairy-Product {
+  /* z-index: 10; */
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  position: relative;
+  left: 0px;
+  top: -580px;
+
+  /* 
+        margin-left: 0px;
+        margin-top: -580px; */
+  color: white;
+  font-size: 5rem;
+}
+
+#Best-Organic-Dairy-Product-2 {
+  position: relative;
+  left: 85px;
+  top: 0px;
+  color: black;
+  /* margin-left: 85px;
+    margin-top: -580px; */
+}
+
+/* #Know-About-Our-Dairy-Farm-Our-History {
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  color: #404a3d;
+} */
+#Dedicated-Services {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+}
+/* #img-box-3
+  {
+    height: 258.33px;
+  } */
+
+#experience-box {
+  background-color: #5b8c51;
+  border-top-left-radius: 10px;
+}
+#experience-box-number {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+}
+
+#experience-box-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #eddd5e !important;
+}
+#award-box {
+  background-color: #eddd5e;
+  border-top-right-radius: 10px;
+}
+#award-box-number {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #404a3d;
+  font-family: "Libre Baskerville", serif;
+}
+#award-box-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #5b8c51 !important;
+}
+#animal-box {
+  background-color: #eddd5e;
+  border-bottom-left-radius: 10px;
+}
+#animal-box-number {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #404a3d;
+  font-family: "Libre Baskerville", serif;
+}
+#animal-box-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #5b8c51 !important;
+}
+
+#client-box {
+  background-color: #5b8c51;
+  border-bottom-right-radius: 10px;
+}
+#client-box-number {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+}
+
+#client-box-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #eddd5e !important;
+}
+
+#cowback {
+  background-image: url(photo/magdalena-smolnicka-XQ1gpx6Z-8k-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#We-Sell-Best-Dairy-Products {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+#Services-That-We-Offer-For-Entrepreneurs {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  color: #404a3d;
+}
+
+#Best-Animal-Selection {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  color: #404a3d;
+}
+
+#Best-Animal-Selection-box {
+  width: 95%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px black;
+  margin-top: -70px;
+  z-index: -10;
+}
+
+#Best-Animal-Selection-box-2 {
+  width: 95%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px black;
+  margin-top: -70px;
+  z-index: -10;
+}
+#Best-Animal-Selection-box-3 {
+  width: 95%;
+
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px black;
+  margin-top: -70px;
+  z-index: -10;
+}
+
+#Our-Dairy-Products-For-Healthy-Living {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  color: #404a3d;
+}
+#Pure-Milk {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  color: #404a3d;
+  cursor: pointer;
+}
+#Pure-Milk:hover {
+  color: #5b8c51;
+}
+#pure-milk-box {
+  width: 95%;
+  border-radius: 10px;
+  background-color: white;
+}
+#Experienced-Team-Members {
+  font-size: 2.5rem;
+  /* font-weight: 900; */
+
+  font-family: "Libre Baskerville", serif;
+  color: #404a3d;
+}
+#Adam-Crew {
+  font-family: "Libre Baskerville", serif;
+
+  font-size: 1.5rem;
+  /* font-weight: 700;  */
+  color: #404a3d;
+}
+#Adam-Crew-box {
+  width: 95%;
+  border: 15px solid white;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 2px 0px black;
+}
+#footer-page {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* ===================== */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.main-header {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #5c0c92;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card p {
+  font-weight: 300;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 2;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+  .card {
+    display: block;
+  }
+}
+
+/* ========================= */
+
+.ml6 {
+  position: relative;
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Libre Baskerville", serif;
+  color: #404a3d;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* ================== */
+
+
+.ml5 {
+  position: relative;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #404a3d;
+  cursor: pointer;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+
